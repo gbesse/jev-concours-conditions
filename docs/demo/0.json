@@ -1,0 +1,41 @@
+{
+  "id": "jev-concours-conditions-demo",
+  "candidate": {
+    "docId": "a",
+    "session": "DEMO-2027",
+    "submittedAt": "2026-10-01",
+    "diplomaLevel": 6,
+    "equivalence": "sans-objet",
+    "diplomaDescription": "Licence française en informatique."
+  },
+  "notice": {
+    "docId": "b",
+    "session": "DEMO-2027",
+    "opens": "2026-09-01",
+    "closes": "2026-10-15",
+    "requiredLevel": 6,
+    "diplomaRequirement": "Une licence en informatique est requise pour cette session fictive."
+  },
+  "documents": [
+    {
+      "id": "a",
+      "text": "DEMO-2027\n2026-10-01\n6\nsans-objet\nLicence française en informatique.",
+      "source": {
+        "uri": "fixture:a",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "b",
+      "text": "DEMO-2027\n2026-09-01\n2026-10-15\n6\nUne licence en informatique est requise pour cette session fictive.",
+      "source": {
+        "uri": "fixture:b",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    }
+  ]
+}
